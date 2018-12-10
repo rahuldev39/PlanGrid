@@ -86,7 +86,7 @@ a {
 
 .btn {
     display: inline-block;
-    padding: 6px 12px;
+    padding: 9px 12px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: normal;
@@ -315,6 +315,145 @@ color: #555555;
   padding-left: 15px;
   padding-right: 15px
 }
+.main-content aside{
+  flex-basis: 620px
+}
+.video-container .wistia_embed{
+
+}
+
+.video-container .wistia_embed > div {
+    transition: none !important;
+    opacity: 0.61;
+}
+
+
+/*#####################---brasfield css start ---######################*/
+
+.gray-bg {
+    background-color: #e7e8ea;
+}
+.banner-container{
+  max-width: 520px
+}
+.slider .owl-dots .owl-dot span {
+    background: #ffffff;
+}
+.slider .owl-dots .owl-dot.active span {
+    background: #eaa443;
+}
+.slider .owl-dots {
+    position: absolute;
+    z-index: 100;
+    bottom: 14px;
+    left: 50%;
+    margin: 0 auto;
+    margin-left: -48px;
+    display: flex;
+}
+.slider .slider-item img{
+  width: 100%
+}
+.stats-container{
+  background: #3e4e57;
+  color: #ffffff
+}
+.stats-container .stats-content{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+}
+.stats-container .stats-content > div{
+  flex: 1;
+
+}
+.stats-container .stats-content h3 {
+    font-size: 60px;
+    font-family: 'Averta';
+    font-weight: 100;
+}
+.stats-container .stats-content span {
+    font-family: 'Averta';
+    font-size: 18px;
+    margin-top: 0px;
+    display: block;
+    font-weight: 400;
+}
+.quote_container {
+  padding: 5rem 0;
+  padding-bottom: 0rem
+}
+.quote-content{
+  color: #545454;
+  margin-bottom: 5rem
+}
+.quote-content p {
+    font-family: 'Averta';
+
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.quote-content span {
+    font-family: 'Averta';
+    font-weight: 200;
+    font-size: 15px;
+}
+.hero-unit{
+padding: 60px 20px 60px 20px;
+color: white;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.quote-content.hero-unit {
+    background-image: url(./../img/Hero4.jpg);
+}
+.play-video-box{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-video-box span {
+    font-weight: 400;
+    margin-left: 13px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.get-started-container{
+  background-color: #2f87e2;
+    padding: 40px 0px;
+    color: white
+}
+.btn{
+  float: none;
+  width: auto;
+}
+.btn-light {
+    background-color: white;
+    color: #2f87e2;
+    font-weight: 500;
+}
+.get-started-content h5 {
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.get-started-content span {
+    display: block;
+    margin-top: 11px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.get-started-content span {
+    display: block;
+    margin-top: 11px;
+    font-weight: 100;
+    font-size: 12px;
+}
+/*###################---brasfield css End ---#########################*/
 @media (max-width: 62em)
 {
   aside {
@@ -324,9 +463,36 @@ color: #555555;
     flex: auto;
     width: 50%;
 }
+.banner-container {
+    max-width: 382px;
+    margin-left: 34px;
+}
+.slider .slider-item img {
+    width: auto;
+    max-width: none;
+}
+.quote-content p {
+    font-size: 30px;
+    line-height: 41px;
+}
 }
 @media (max-width: 40em)
 {
+  .stats-content{
+    flex-direction: column;
+
+  }
+  .stats-container .stats-content > div {
+    margin: 20px 0px;
+}
+  .banner-container {
+      max-width: 100%;
+      margin-left: 0px
+  }
+  .slider .slider-item img {
+      width: 100%;
+      max-width: none;
+  }
   .flex-content {
       display: block;
       padding: 0px 15px;
