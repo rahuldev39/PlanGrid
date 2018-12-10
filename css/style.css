@@ -504,9 +504,40 @@ aside {
     max-width: 100%;
 }
 }
-@media (min-width: 1200px)
+@media (min-width: 1350px)
 {
-.container {
-    width: 1068px;
+  .row {
+    max-width: 1467px;
+}
+  .content p {
+      font-size: 20px;
+      line-height: 33px;
+
+  }
+
+  .stats-container .stats-content h3 {
+    font-size: 80px;
+}
+.stats-container .stats-content span {
+    font-size: 24px;
+}
+.quote-content p {
+    font-size: 60px;
+    line-height: 66px
+}.quote-content span {
+    font-size: 18px;
+}
+.get-started-content h5 {
+    font-size: 30px;
+    line-height: 66px
+}
+.play-video-box span {
+    margin-left: 16px;
+}
+.get-started-content span {
+    font-size: 16px;
+}
+.get-started-content .btn-light{
+      font-size: 16px;
 }
 }
