@@ -358,11 +358,11 @@ color: #555555;
   background: #3e4e57;
   color: #ffffff
 }
-.stats-container .stats-content{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 40px 0px;
+.stats-container .stats-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
 }
 .stats-container .stats-content > div{
   flex: 1;
@@ -375,10 +375,10 @@ color: #555555;
 }
 .stats-container .stats-content span {
     font-family: 'Averta';
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 0px;
     display: block;
-    font-weight: 400;
+    font-weight: 200;
 }
 .quote_container {
   padding: 5rem 0;
@@ -401,11 +401,11 @@ color: #555555;
     font-weight: 200;
     font-size: 15px;
 }
-.hero-unit{
-padding: 60px 20px 60px 20px;
-color: white;
-background-size: cover;
-background-repeat: no-repeat;
+.hero-unit {
+    padding: 72px 20px 72px 20px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .quote-content.hero-unit {
     background-image: url(./../img/Hero4.jpg);
@@ -422,10 +422,10 @@ background-repeat: no-repeat;
     font-size: 12px;
     text-transform: uppercase;
 }
-.get-started-container{
-  background-color: #2f87e2;
-    padding: 40px 0px;
-    color: white
+.get-started-container {
+    background-color: #2f87e2;
+    padding: 43px 0px;
+    color: white;
 }
 .btn{
   float: none;
