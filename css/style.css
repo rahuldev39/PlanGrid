@@ -453,6 +453,13 @@ color: #555555;
     font-weight: 100;
     font-size: 12px;
 }
+.page-wrapper {
+    background-color: #3e4e58;
+}
+.wrapper-inner{
+  max-width: 1680px;
+  margin: 0 auto;
+}
 /*###################---brasfield css End ---#########################*/
 @media (max-width: 62em)
 {
@@ -504,7 +511,7 @@ aside {
     max-width: 100%;
 }
 }
-@media (min-width: 1350px)
+@media (min-width: 1467px)
 {
   .row {
     max-width: 1467px;
