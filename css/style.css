@@ -295,7 +295,7 @@ color: #555555;
     font-weight: 400;
 }
 .content {
-    max-width: 440px;
+    max-width: 490px;
 }
 
 .flex-content{
@@ -513,14 +513,20 @@ aside {
 }
 @media (min-width: 1467px)
 {
+    .content {
+        max-width: 600px;
+    }
+    .banner-container {
+        max-width: 635px;
+    }
   .row {
-    max-width: 1467px;
+    max-width:1325px;
 }
-  .content p {
-      font-size: 20px;
-      line-height: 33px;
-
-  }
+.content p {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 52px;
+}
 
   .stats-container .stats-content h3 {
     font-size: 80px;
@@ -529,9 +535,10 @@ aside {
     font-size: 24px;
 }
 .quote-content p {
-    font-size: 60px;
-    line-height: 66px
-}.quote-content span {
+    font-size: 55px;
+    line-height: 66px;
+}
+.quote-content span {
     font-size: 18px;
 }
 .get-started-content h5 {
