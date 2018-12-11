@@ -1,5 +1,152 @@
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: normal;
+src: local('Averta'), url('./../fonts/averta/AvertaStandard-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: bold;
+src: local('Averta'), url('./../fonts/averta/bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 900;
+src: local('Averta'), url('./../fonts/averta/extrabold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 100;
+src: local('Averta'), url('./../fonts/averta/extrathin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 200;
+src: local('Averta'), url('./../fonts/averta/thin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 300;
+src: local('Averta'), url('./../fonts/averta/light.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: lighter;
+src: local('Averta'), url('./../fonts/averta/light.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 600;
+src: local('Averta'), url('./../fonts/averta/semibold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 400;
+src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
+}
+.breadcrumb {
+    background-color: transparent;
+    font-size: 13px;
+    font-family: 'Averta';
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.breadcrumb > li {
+    display: inline-block;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+a {
+    text-decoration: none;
+    color: #0085DE;
+}
+.separator{
+	margin: 10px 0px;
+}
+.header-logo{
+	margin: 15px;
+	max-width: 240px;
+	width: 100%;
 
 
+}
+
+.btn {
+    display: inline-block;
+    padding: 9px 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.content p {
+    color: #555555;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 30px 0px;
+    font-weight: 400;
+    font-family: 'Averta';
+}
+.btn-primary {
+    border: 2px solid #005F9E;
+    background-color: #0085DE;
+    text-transform: uppercase;
+
+    border-radius: 6px;
+    font-family: 'Averta';
+}
+.contact-text {
+    font-weight: 400;
+}
+.content {
+    max-width: 490px;
+}
+.content.hero-content{
+  max-width: 100%;
+    margin-right: 15px;
+}
+.top-content{
+      margin: 0px 54px;
+}
+.flex-content{
+  display: flex;
+}
+.flex-row{
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+}
+.flex-content main{
+  flex: 1
+}
 .gray-bg {
     background-color: #e7e8ea;
 }
@@ -169,7 +316,13 @@
       width: 100%;
       max-width: none;
   }
-
+  .flex-content {
+      display: block;
+      padding: 0px 15px;
+  }
+  .flex-content main {
+    margin-bottom: 30px;
+  }
 
 }
 @media (min-width: 1467px)
