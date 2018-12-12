@@ -375,7 +375,7 @@ width: 520px
 /*#############------Slider CSS Start----------###############*/
 
 .slider {
-  height: 519px;
+  height: 521px;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
@@ -458,11 +458,8 @@ width: 520px
 .slider__contents {
   height: 100%;
   text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
+
+
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -477,6 +474,9 @@ width: 520px
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.slider__contents img{
+  height: 100%
 }
 .slider__image {
   font-size: 2.7rem;
