@@ -23025,12 +23025,8 @@ max-width: 100%;
 </style>
 
     <title>Plan Grid</title>
-    <link href="./css/owl.carousel.min.css" rel="stylesheet">
-	<link href="./css/owl.theme.default.min.css" rel="stylesheet">
   <link href="./css/page2.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -23067,18 +23063,24 @@ max-width: 100%;
 
             </main>
             <div class="banner-container">
-              <div class="slider owl-carousel owl-theme">
-                <div class="slider-item">
+              <div class="slider">
+                <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                <div class="slider__inner">
+                  <div class="slider__contents">
+                    <img src="./img/slider-img1.jpg" alt="">
+                  </div>
+                  <div class="slider__contents">
                   <img src="./img/slider-img1.jpg" alt="">
-                </div>
-                <div class="slider-item">
-                  <img src="./img/slider-img1.jpg" alt="">
-                </div>
-                <div class="slider-item">
-                  <img src="./img/slider-img1.jpg" alt="">
-                </div>
-                <div class="slider-item">
-                  <img src="./img/slider-img1.jpg" alt="">
+                  </div>
+                  <div class="slider__contents">
+                    <img src="./img/slider-img1.jpg" alt="">
+                  </div>
+                  <div class="slider__contents">
+                    <img src="./img/slider-img1.jpg" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -23155,30 +23157,7 @@ max-width: 100%;
 
 
     <script src="./js/jquery-1.11.2.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
 
-    <script type="text/javascript">
-          $(document).ready(function(){
-      $(".owl-carousel").owlCarousel({
-        center: true,
-        loop: true,
-        margin: 10,
-        nav: false,
-        dots:true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 1
-          },
-          1000: {
-            items: 1
-          }
-        }
-      });
-      });
-    </script>
 </body>
 
 </html>
