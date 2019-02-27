@@ -1,0 +1,354 @@
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: normal;
+src: local('Averta'), url('./../fonts/averta/AvertaStandard-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: bold;
+src: local('Averta'), url('./../fonts/averta/bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 900;
+src: local('Averta'), url('./../fonts/averta/extrabold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 100;
+src: local('Averta'), url('./../fonts/averta/extrathin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 200;
+src: local('Averta'), url('./../fonts/averta/thin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 300;
+src: local('Averta'), url('./../fonts/averta/light.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: lighter;
+src: local('Averta'), url('./../fonts/averta/light.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 600;
+src: local('Averta'), url('./../fonts/averta/semibold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 400;
+src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
+}
+.hero-unit {
+    background-image: url(./../img/case-study-banner.jpg);
+    background-size: cover;
+    color: white;
+    min-height: 515px;
+    display: flex;
+    align-items: center;
+    font-family: 'Averta';
+}
+.hero-unit .hero-unit-inner{
+  flex: 1
+}
+.hero-unit .hero-unit-content{
+  max-width: 580px;
+}
+.hero-unit-content .heading-caption h4 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.heading-caption{
+  display: inline-block;
+}
+.caption-separator {
+    transform: skew(-43deg);
+    margin-left: -6px;
+    margin-top: 10px;
+}
+.hero-unit-content h1 {
+    font-weight: 200;
+    font-size: 46px;
+    margin: 30px 0px;
+}
+.btn-primary {
+    border: 2px solid #005F9E;
+    background-color: #0085DE;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 black;
+    font-weight: 600;
+    width: auto;
+}
+
+.filter-nav-container {
+    background-color: #77878b;
+    box-shadow: 0px 6px 17px #a8b0b1a3;
+    position: relative;
+}
+.filter-nav-container ul.filter-nav {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: white
+}
+.filter-nav-container ul.filter-nav > li {
+    display: inline-block;
+    position: relative;
+}
+.filter-nav-container ul.filter-nav > li a {
+    color: white;
+    line-height: 44px;
+    padding: 4px 20px 0 20px;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+.filter-nav-container ul.filter-nav > li a i {
+    margin-left: 8px;
+}
+
+.filter-nav-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-nav li .filter-title {
+    font-size: 12px;
+    display: block;
+    margin-right: 10px;
+}
+.filter-nav li:hover a{
+  background-color: #3c4e56
+}
+.filter-nav li:hover .filter-sub-nav{
+  display: block;
+}
+.filter-nav .filter-sub-nav {
+    list-style-type: none;
+    padding: 25px 25px;
+    margin: 0;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: solid 0.5px #e6edf2;
+    position: absolute;
+    box-sizing: border-box;
+    top: 100%;
+    width: 250px;
+    background: #fff;
+    z-index: 10;
+    display: none;
+}
+.filter-nav .filter-sub-nav::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 81px;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-right: 1px solid #e6edf2;
+    border-top: 1px solid #e6edf2;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.filter-sub-nav li{
+
+}
+.filter-sub-nav li label {
+    color: #0085de;
+    font-size: 14px;
+}
+.filter-sub-nav li label input[type="checkbox"]{
+  display: none;
+}
+.filter-sub-nav li label input[type="checkbox"] + span {
+    position: relative;
+    padding-left: 21px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: block;
+    cursor: pointer;
+}
+.filter-sub-nav li:last-child label input[type="checkbox"] + span{
+  margin-bottom: 0px
+}
+.filter-sub-nav li label input[type="checkbox"] + span::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 1px;
+    border: 1px solid #dedede;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    box-shadow: 0px 0px 3px #77878a9c inset;
+}
+.filter-sub-nav li label input[type="checkbox"]:checked + span::after {
+    background-image: url(./../img/blue-check.png);
+    background-color: #0086df;
+    border-color: #0086df;
+}
+.reset-filter a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.reset-filter a span {
+    height: 18px;
+    width: 18px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 10.5px;
+    margin-right: 7px;
+}
+.gray-bg {
+    background-color: #e7e8ea;
+}
+.featured-container .title {
+    padding: 40px 0px;
+}
+.featured-container .title h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #57636c;
+}
+.featured-case-tiles{
+  display: flex;
+flex-wrap: wrap;
+margin-left: -7px;
+margin-right: -7px;
+}
+.featured-case-tile {
+    flex-basis: calc(33.3% - 14px);
+    box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.07);
+    background-color: white;
+    border: solid 0.5px #d6dadf;
+    vertical-align: top;
+    margin: 0 7px 14px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.featured-case-tile .featured-case-tile_top{
+  flex: 1
+}
+.featured-case-tile:after {
+    content: "";
+    position: absolute;
+    width: 16%;
+    height: 16%;
+    min-width: 57px;
+    min-height: 57px;
+    background-position: 100% 100%;
+    background-image: url(./../img/85x85-slanted-lines.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -8px;
+    right: -8px;
+    z-index: 1;
+}
+.featured-case-tile .featured-case-tile-thumb {
+position: relative;
+}
+.featured-case-tile .featured-case-tile-thumb::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3bab2069;
+    bottom: 0px;
+}
+.featured-case-tile .featured-case-tile-thumb img {
+    width: 100%;
+}
+.featured-case-tile-info {
+    padding: 40px 30px 30px;
+}
+.featured-case-tile-info .featured-case-tile-info_title h4 {
+    color: #2f83e5;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.featured-case-tile-info .featured-case-tile-info_company {
+    font-size: 13px;
+}
+.featured-case-tile-info .featured-case-tile-info_loaction {
+    font-size: 14px;
+}
+.featured-case-tile .featured-case-tile-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 12px 8px 30px;
+    position: relative;
+    z-index: 2;
+}
+.featured-case-tile .featured-case-tile-footer .featured-case-tile_tag a {
+    color: #3083e5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    top: -12px;
+}
+.featured-case-quote{
+  margin-bottom: 70px
+}
+.featured-case-quote .featured-case-quote_text p {
+    font-family: 'Averta';
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+    color: #545454;
+    margin-bottom: 25px;
+}
+.featured-case-quote .featured-case-quote_author{
+  color: #525252;
+  font-size: 17px;
+}
+@media (max-width: 768px) {
+  .featured-case-tile {
+    flex-basis: calc(50% - 14px);
+}
+.featured-case-tiles{
+  padding: 0px 10px
+}
+.hero-unit {
+    padding: 0px 30px;
+}
+.filter-nav-inner {
+    padding: 0px 10px;
+}
+}
+@media (max-width: 568px){
+  .featured-case-tile {
+    flex-basis: calc(100% - 14px);
+}
+}
