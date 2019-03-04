@@ -61,6 +61,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     display: flex;
     align-items: center;
     font-family: 'Averta';
+    height: auto !important;
 }
 .hero-unit .hero-unit-inner{
   flex: 1
