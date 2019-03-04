@@ -65,13 +65,15 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 .hero-unit .hero-unit-inner{
   flex: 1
 }
-.hero-unit .hero-unit-content{
-  max-width: 580px;
+.hero-unit .hero-unit-content {
+    max-width: 777px;
 }
 .hero-unit-content .heading-caption h4 {
-    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #FEFEFE;
+    font-family: 'Averta';
+    font-size: 18px;
 }
 .heading-caption{
   display: inline-block;
@@ -79,22 +81,28 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 .caption-separator {
     transform: skew(-43deg);
     margin-left: -6px;
-    margin-top: 10px;
+    margin-top: 19px;
+    margin-bottom: 39px;
 }
 .hero-unit-content h1 {
-    font-weight: 200;
-    font-size: 46px;
-    margin: 30px 0px;
+    color: #FFFFFF;
+    font-family: 'Averta';
+    margin-bottom: 50px;
+    white-space: normal !important;
 }
 .btn-primary {
     border: 2px solid #005F9E;
     background-color: #0085DE;
     text-transform: uppercase;
-    padding: 12px 15px;
+    padding: 13px 15px;
     border-radius: 6px;
     box-shadow: 0 0 black;
     font-weight: 600;
     width: auto;
+    color: #FFFFFF;
+    font-family: 'Averta';
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .filter-nav-container {
@@ -113,12 +121,12 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     position: relative;
 }
 .filter-nav-container ul.filter-nav > li a {
-    color: white;
-    line-height: 44px;
-    padding: 4px 20px 0 20px;
-    display: block;
-    font-size: 12px;
-    font-weight: 500;
+  color: white;
+  line-height: 56px;
+  padding: 4px 20px 0 20px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
 }
 .filter-nav-container ul.filter-nav > li a i {
     margin-left: 8px;
@@ -130,7 +138,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
   justify-content: space-between;
 }
 .filter-nav li .filter-title {
-    font-size: 12px;
+    font-size: 14px;
     display: block;
     margin-right: 10px;
 }
@@ -212,31 +220,34 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 .reset-filter a span {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 10.5px;
-    margin-right: 7px;
+    font-size: 12.2px;
+    margin-right: 8px;
 }
 .gray-bg {
     background-color: #e7e8ea;
 }
 .featured-container .title {
-    padding: 40px 0px;
+    padding: 57px 0px 51px 0px;
 }
 .featured-container .title h3 {
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 19px;
     color: #57636c;
+    color: #55636A;
+    font-family: 'Averta';
+    font-size: 24px;
 }
 .featured-case-tiles{
   display: flex;
@@ -245,12 +256,12 @@ margin-left: -7px;
 margin-right: -7px;
 }
 .featured-case-tile {
-    flex-basis: calc(33.3% - 14px);
+    flex-basis: calc(33.3% - 16px);
     box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.07);
     background-color: white;
     border: solid 0.5px #d6dadf;
     vertical-align: top;
-    margin: 0 7px 14px;
+    margin: 0 8px 16px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -267,15 +278,18 @@ margin-right: -7px;
     min-width: 57px;
     min-height: 57px;
     background-position: 100% 100%;
-    background-image: url(./../img/85x85-slanted-lines.svg);
+    background-image: url(./../img/slanted-lines.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    bottom: -8px;
-    right: -8px;
+    bottom: 1px;
+    right: 0px;
     z-index: 1;
 }
 .featured-case-tile .featured-case-tile-thumb {
-position: relative;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 160px;
 }
 .featured-case-tile .featured-case-tile-thumb::after {
     content: "";
@@ -289,23 +303,24 @@ position: relative;
     width: 100%;
 }
 .featured-case-tile-info {
-    padding: 40px 30px 30px;
+    padding: 57px 30px 51px 30px;
 }
 .featured-case-tile-info .featured-case-tile-info_title h4 {
-    color: #2f83e5;
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 5px;
+    color: #0085DE;
 }
 .featured-case-tile-info .featured-case-tile-info_company {
-    font-size: 13px;
+    font-size: 17px;
+    margin-bottom: 3px;
 }
 .featured-case-tile-info .featured-case-tile-info_loaction {
-    font-size: 14px;
+    font-size: 17px;
 }
 .featured-case-tile .featured-case-tile-footer {
     display: flex;
     justify-content: space-between;
-    padding: 15px 12px 8px 30px;
+    padding: 15px 12px 14px 30px;
     position: relative;
     z-index: 2;
 }
@@ -317,25 +332,30 @@ position: relative;
     display: block;
     position: relative;
     top: -12px;
+    color: #0085DE;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Averta';
 }
-.featured-case-quote{
-  margin-bottom: 70px
+.featured-case-quote {
+    margin-bottom: 90px;
 }
 .featured-case-quote .featured-case-quote_text p {
     font-family: 'Averta';
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 300;
-    line-height: 56px;
-    color: #545454;
+    line-height: 67px;
     margin-bottom: 25px;
+    color: #555555;
+    margin-top: 86px;
 }
-.featured-case-quote .featured-case-quote_author{
-  color: #525252;
-  font-size: 17px;
+.featured-case-quote .featured-case-quote_author {
+    font-size: 24px;
+    color: #555555;
 }
 @media (max-width: 768px) {
   .featured-case-tile {
-    flex-basis: calc(50% - 14px);
+    flex-basis: calc(50% - 16px);
 }
 .featured-case-tiles{
   padding: 0px 10px
@@ -349,6 +369,27 @@ position: relative;
 }
 @media (max-width: 568px){
   .featured-case-tile {
-    flex-basis: calc(100% - 14px);
+    flex-basis: calc(100% - 16px);
+}
+}
+@media (max-width: 62.1em)
+{
+.featured-case-quote .featured-case-quote_text p {
+    font-size: 32px;
+    line-height: 35px;
+}
+.featured-case-quote .featured-case-quote_author {
+    font-size: 18px;
+}
+}
+@media (max-width: 39.938em)
+{
+.featured-case-quote .featured-case-quote_text p {
+  font-size: 28px;
+      line-height: 30px;
+}
+.featured-case-quote .featured-case-quote_author {
+  font-size: 16px;
+  line-height: 36px;
 }
 }
