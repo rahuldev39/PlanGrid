@@ -55,19 +55,21 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 }
 .hero-unit {
     background-image: url(./../img/case-study-banner.jpg);
-    background-size: cover;
+    background-size: cover !important;
     color: white;
     min-height: 515px;
     display: flex;
     align-items: center;
     font-family: 'Averta';
     height: auto !important;
+    width: 100% !important;
 }
 .hero-unit .hero-unit-inner{
   flex: 1
 }
 .hero-unit .hero-unit-content {
-    max-width: 777px;
+    max-width: 777px !important;
+    display: block !important;
 }
 .hero-unit-content .heading-caption h4 {
     font-weight: 600;
@@ -120,14 +122,17 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 .filter-nav-container ul.filter-nav > li {
     display: inline-block;
     position: relative;
+    font-family: 'Averta';
 }
 .filter-nav-container ul.filter-nav > li a {
-  color: white;
-  line-height: 56px;
-  padding: 4px 20px 0 20px;
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
+    color: white;
+    line-height: 56px;
+    padding: 4px 20px 0 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Averta';
+    letter-spacing: 0.2px;
 }
 .filter-nav-container ul.filter-nav > li a i {
     margin-left: 8px;
@@ -142,6 +147,8 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     font-size: 14px;
     display: block;
     margin-right: 10px;
+    font-weight: 300;
+    letter-spacing: .2px;
 }
 .filter-nav li:hover a{
   background-color: #3c4e56
@@ -151,7 +158,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 }
 .filter-nav .filter-sub-nav {
     list-style-type: none;
-    padding: 25px 25px;
+    padding: 27px 28px;
     margin: 0;
     border-radius: 3px;
     border-top-left-radius: 0;
@@ -160,7 +167,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     position: absolute;
     box-sizing: border-box;
     top: 100%;
-    width: 250px;
+    width: 260px;
     background: #fff;
     z-index: 10;
     display: none;
@@ -191,11 +198,15 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
 }
 .filter-sub-nav li label input[type="checkbox"] + span {
     position: relative;
-    padding-left: 21px;
+    padding-left: 25px;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     display: block;
     cursor: pointer;
+    font-family: 'Averta';
+}
+.filter-sub-nav li label input[type="checkbox"]:checked + span {
+    color: #00375d;
 }
 .filter-sub-nav li:last-child label input[type="checkbox"] + span{
   margin-bottom: 0px
@@ -223,6 +234,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     color: white;
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: .2px;
 }
 .reset-filter a span {
     height: 22px;
@@ -361,9 +373,7 @@ margin-right: -7px;
 .featured-case-tiles{
   padding: 0px 10px
 }
-.hero-unit {
-    padding: 0px 30px;
-}
+
 .filter-nav-inner {
     padding: 0px 10px;
 }
