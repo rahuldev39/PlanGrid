@@ -8,6 +8,9 @@
     color: white;
     text-align: center;
 }
+.resorces-titles .featured-case-tile {
+    min-height: 380px;
+}
 .resource-banner h4.banner-title {
     font-size: 44px;
     font-weight: 200;
