@@ -1,0 +1,117 @@
+.resource-banner {
+    height: 329px;
+    background-image: url(./../img/resource-bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.resource-banner h4.banner-title {
+    font-size: 44px;
+    font-weight: 200;
+}
+.filter-search-container .search-bar{
+  position: relative;
+  min-width: 350px;
+}
+.filter-search-container .search-bar input {
+    line-height: 45px;
+    min-width: 350px;
+    border-radius: 6px;
+    border: 0px;
+    padding: 0px 19px;
+    font-family: 'Averta';
+    padding-left: 46px;
+    font-weight: 300;
+}
+.filter-search-container .search-bar .serach-icon {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+}
+.title .sub-text {
+    max-width: 854px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.title .sub-text p {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 300;
+    font-family: 'Averta';
+}
+.resorces-titles .featured-case-tile-info {
+    padding: 30px 30px 20px 30px;
+}
+.resorces-titles .featured-case-tile-info .featured-case-tile-info_title h4 {
+    font-size: 20px;
+}
+.resource-title-subtext {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.sub-text a{
+    font-size: 30px;
+    color: #0085DE;
+    text-decoration: underline;
+    font-family: 'Averta';
+    font-weight: 300;
+}
+@media (max-width: 991px){
+  .filter-nav li .filter-title{
+    display: none
+  }
+}
+@media (max-width: 768px){
+  .filter-search-container {
+      order: -1;
+      flex: 1;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 12px;
+      margin-bottom: 12px;
+  }
+
+  .filter-search-container .search-bar input {
+    min-width: 100%;
+
+}
+.filter-nav li .filter-title {
+    display: block;
+}
+.reset-filter{
+  display: none
+}
+.filter-nav-container ul.filter-nav > li {
+    display: block;
+}
+.filter-nav-container ul.filter-nav {
+    width: 100%;
+    position: relative;
+}
+.filter-nav-container ul.filter-nav > li > a {
+    text-align: right;
+    border-top: 1px solid #f1f1f1;
+}
+.filter-nav-container ul.filter-nav > li:first-child {
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    left: 12px;
+}
+.filter-nav-inner {
+    padding: 0px 0px;
+}
+.filter-nav-inner {
+    flex-direction: column;
+}
+.filter-nav .filter-sub-nav {
+    right: 0px;
+}
+.filter-nav .filter-sub-nav::after {
+    right: 40px;
+    left: auto;
+}
+}

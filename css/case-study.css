@@ -124,7 +124,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     position: relative;
     font-family: 'Averta';
 }
-.filter-nav-container ul.filter-nav > li a {
+.filter-nav-container ul.filter-nav > li > a {
     color: white;
     line-height: 56px;
     padding: 4px 20px 0 20px;
@@ -134,7 +134,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     font-family: 'Averta';
     letter-spacing: 0.2px;
 }
-.filter-nav-container ul.filter-nav > li a i {
+.filter-nav-container ul.filter-nav > li > a i {
     margin-left: 8px;
 }
 
@@ -150,7 +150,7 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     font-weight: 300;
     letter-spacing: .2px;
 }
-.filter-nav li:hover a{
+.filter-nav li:hover > a{
   background-color: #3c4e56
 }
 .filter-nav li:hover .filter-sub-nav{
@@ -233,8 +233,9 @@ src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
     justify-content: center;
     color: white;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: .2px;
+    font-family: 'Averta';
 }
 .reset-filter a span {
     height: 22px;
