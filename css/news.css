@@ -1,0 +1,197 @@
+.newsroom-banner{
+  height: 264px;
+  background-image: url(./../img/newsroom-banner.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.newsroom-banner h4.banner-title {
+    font-size: 49px;
+    font-weight: 200;
+}
+.news-titles .featured-case-tile-info {
+    padding: 30px 27px 60px 27px;
+}
+.news-titles .new-logo {
+    margin-bottom: 21px;
+}
+.news-titles .new-logo img {
+    height: 58px;
+}
+.news-titles .featured-case-tile-info .featured-case-tile-info_title h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #0085DE;
+    line-height: 21px;
+    font-family: 'Averta';
+}
+.news-titles.featured-case-tiles {
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.news-titles .featured-case-tile{
+
+}
+.news-info{
+
+}
+.news-info .company-name {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Averta';
+}
+.news-info .date {
+    font-size: 13px;
+    font-family: 'Averta';
+}
+.see-more-press-btn{
+  width: 100%;
+  padding: 0px 8px
+}
+.see-more-press-btn a{
+  display: block;
+  height: 46px;
+  text-decoration: none;
+  background-color: #62626d;
+  color: white;
+  font-family: 'Averta';
+  text-align: center;
+  width: 100%;
+  line-height: 46px;
+  font-size: 18px
+}
+.inquires-band{
+  background-color: #0086df;
+  color: white;
+  padding: 40px 0px;
+  margin-top: 96px
+}
+.inquires-band h4 {
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+.inquires-band a {
+    font-weight: 600;
+    font-size: 23px;
+}
+.award-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.award-grid .award-item {
+    width: 20%;
+    text-align: center;
+    margin: 28px 0px
+}
+.award-container{
+  background-color: white
+}
+.award-grid .award-item .logo-img{
+  margin-bottom: 27px
+}
+.award-grid .award-item .award-title {
+    font-size: 12px;
+    max-width: 134px;
+    margin: 0 auto;
+}
+.award-container .title {
+    padding-bottom: 0px;
+}
+.statistics-container{
+  padding-top: 65px;
+  position: relative;
+}
+.statistics-bg{
+  position: absolute;
+  width: 100%;
+  height: 263px;
+  background-image: url(./../img/statistics-bg.jpg);
+  top: 0px
+}
+.statistics-grid{
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.statistics-grid .statistics-item{
+  background-color: white;
+  margin: 15px;
+  padding: 30px 16px
+}
+.statistics-grid .statistics-item h4 {
+    color: #0086df;
+    font-weight: 200;
+    font-size: 45px;
+    font-family: 'Averta';
+}
+.statistics-grid .statistics-item span{
+  color: #666666;
+  text-transform: uppercase;
+  font-family: 'Averta';
+}
+.statistics-grid .statistics-item .statistics-info p {
+    color: #888585;
+    font-family: 'Averta';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.press-kit-grid{
+  display: flex;
+}
+.press-kit-grid .press-kit-item{
+  height: 236px;
+  width: 25%;
+  margin: 6px;
+
+}
+.press-kit-item .press-kit-item__wrapper {
+    height: 100%;
+    white-space: nowrap;
+      color: #fff;
+      padding: 50px 0 1rem;
+      display: flex;
+      align-items: flex-start;
+}
+.press-kit-item__wrapper .press-kit-item__bullet{
+  display: inline;
+    background-image: url(./../img/white-title-slanted-lines.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    float: right;
+    position: relative;
+    right: 0;
+    left: -7px;
+    width: 80px;
+    height: 21px;
+    color: #f0a34d;
+}
+.press-kit-item__wrapper .press-kit-item__text {
+    align-self: flex-start;
+    font-size: 21px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(0,0,0,.4);
+    position: relative;
+    float: right;
+    margin: 0 .8rem 0 0;
+    color: #fff;
+    left: -3px;
+    font-family: 'Averta';
+    line-height: 22px;
+}
+.follow-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.Follow-us-container{
+  padding-bottom: 100px
+}
