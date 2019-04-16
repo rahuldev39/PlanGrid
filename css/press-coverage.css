@@ -1,0 +1,45 @@
+.press-nav .filter-nav-inner {
+    justify-content: flex-end;
+    height: 60px;
+    padding-right: 65px;
+}
+.press-coverage-list{
+}
+.press-coverage-list ul {
+    list-style-type: none;
+    padding: 57px 65px 65px 65px;
+    background-color: white;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 45px;
+}
+.press-coverage-list li.press-coverage-list_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px
+}
+.press-coverage-list li.press-coverage-list_item:last-child{
+  margin-bottom: 0px
+}
+.press-coverage-list li.press-coverage-list_item .press-coverage-list_logo {
+    flex-basis: 200px;
+    text-align: center;
+    margin-right: 50px;
+}
+.press-coverage-list li.press-coverage-list_item .press-coverage-list_logo img{
+
+}
+.press-coverage-list li.press-coverage-list_item .press-coverage-list_info {
+    flex: 1;
+}
+.press-coverage-list_info h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #0085DE;
+    line-height: 21px;
+    font-family: 'Averta';
+}
+.press-coverage-list_info .news-info div{
+  display: inline-block;
+}
